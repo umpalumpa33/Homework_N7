@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    vertical-align: middle;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 940px;
+}
+
+body {
+    overflow: hidden;
+
+}
+
+header {
+    background: #172755;
+    box-shadow: inset 0 0 0 0.3rem rgba(0, 0, 0, 0.2);
+    height: 45rem;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.top_menu {
+    display: flex;
+    margin-left: 5rem;
+    justify-content: center;
+    gap: 2.25rem;
+}
+
+.top_menu a {
+    margin-top: 0.6rem;
+    color: var(--text-secondary, #8794BA);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    height: min-content;
+}
+
+.navigator a {
+    color: rgba(135, 148, 186, 1);
+    text-decoration: none;
+}
+
+.navigator {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.75rem;
+}
+
+.registration {
+    display: inline-flex;
+    align-items: center;
+    gap: 36px;
+    margin-left: 20rem;
+}
+
+#sign_up_btn {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(135, 148, 186, 1);
+    border-radius: 4.25rem;
+    border: 1px solid #465B95;
+    padding: 0.62rem 3.31rem;
+}
+
+.header_main {
+    margin-top: 4.62rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.header_left_side {
+    width: 35rem;
+    margin-top: 4.88rem;
+}
+
+.header_left_side h1 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.header_left_side p {
+    color: var(--text-secondary, #8794BA);
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 1rem;
+}
+
+#try_free_btn {
+    margin-top: 3rem;
+    padding: 0.62rem 5rem;
+    border-radius: 4.25rem;
+    background: #EF2A82;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+.header_right {
+    position: absolute;
+    right: -1rem;
+}
+
+#header_img{
+    border-radius: 1.875rem;    
+    box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.20);
+}
