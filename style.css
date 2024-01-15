@@ -107,11 +107,17 @@ header {
 
 #try_free_btn {
     margin-top: 3rem;
-    padding: 0.62rem 5rem;
+    padding: 0.9rem 5rem;
     border-radius: 4.25rem;
     background: #EF2A82;
     color: rgba(255, 255, 255, 1);
     border: none;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .header_right {
@@ -183,4 +189,312 @@ main h1, main p {
 
 .main_grid h1, .main_grid p {
     margin-top: 1rem;
+}
+
+.last_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7.5rem;
+    margin-top: 8.12rem;
+}
+
+.first_main, .second_main, .third_main {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.first_main_txt, .second_main_txt, .third_main_txt {
+    width: 30rem;
+}
+
+.first_main p, .second_main p, .third_main p {
+    color: var(--text-secondary, #8794BA);
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 1.88rem;
+}
+
+.first_main h1, .second_main h1, .third_main h1 {
+    color: var(--text-main, #172755);
+    font-family: Roboto;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.first_main_txt, .third_main_txt {
+    margin-right: 6rem;
+}
+
+.second_main_txt {
+    margin-left: 6rem;
+}
+
+.first_main img, .second_main img, .third_main img {
+    border-radius: 1.875rem;
+    background: #FFF;
+    box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.20);
+    padding: 3rem;
+}
+
+.second_main {
+    flex-direction: row-reverse;
+}
+
+.pricing_plans_section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.pricing_plans_txt h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.pricing_plans_txt p {
+    color: var(--text-secondary, #8794BA);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 1.8rem;
+}
+
+.prices {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.starter, .premium {
+    border-radius: 1.875rem;
+    background: #0F1F4B;
+    box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.20);
+}
+
+.starter, .premium, .standard {
+    padding: 4rem;
+    text-align: center;
+}
+
+.standard {
+    border-radius: 1.875rem;
+    background: #FFF;
+    box-shadow: 0px 18px 50px -15px #060F28;
+}
+
+.starter h1, .premium h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.standard h1{
+    color: var(--text-main, #172755);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.starter p, .premium p{
+    color: var(--text-secondary, #8794BA);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.standard p {
+    color: var(--text-secondary, #8794BA);
+    text-align: center; 
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+}
+
+#dollar_span {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.starter button, .premium button {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(135, 148, 186, 1);
+    border-radius: 4.25rem;
+    border: 1px solid #465B95;
+    padding: 0.9rem 5rem;
+    border-radius: 4.25rem;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.prices button {
+    cursor: pointer;
+}
+
+.starter button, .premium button, .standard button {
+    margin-top: 2.5rem;
+}
+
+.standard hr {
+    border: 1px solid #D3D9E9;
+}
+
+.starter hr, .premium hr {
+    border: 1px solid #2A407C;;
+}
+
+#prices_names {
+    margin-bottom: 0.6rem;
+}
+
+#users_num {
+    margin-bottom: 2rem;
+    color: var(--text-secondary, #8794BA);
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+#per_month{
+    color: var(--text-secondary, #8794BA);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+}
+
+.prices hr {
+    margin-bottom: 1.75rem;
+}
+
+.standard button {
+    padding: 0.9rem 5rem;
+    border-radius: 4.25rem;
+    background: #EF2A82;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#last_hr {
+    background-color: rgba(23, 39, 85, 1);
+    border: 0.0625rem solid rgba(42, 64, 124, 1);
+    margin-top: 9vh;
+    width: 1200px;
+}
+
+.footer_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 6vh;
+}
+
+
+.footer_content a {
+    text-decoration: none;
+    color: var(--text-secondary, #8794BA);
+    font-family: Roboto;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer {
+    vertical-align: middle;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 940px;
+}
+
+.footer_background {
+    background-color: rgba(23, 39, 85, 1);
+}
+
+.footer_logo {
+    text-align: left;
+}
+
+.footer_socials {
+    text-align: right;
+}
+
+#twitter{
+    margin: 0 2rem 0 2.5rem;
+}
+
+.footer_socials img:hover {
+    cursor: pointer;
+}
+
+.footer_nav {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+}
+
+#premium_price {
+    color: #172755;
+    font-family: Roboto;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#price_of_packet{
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
